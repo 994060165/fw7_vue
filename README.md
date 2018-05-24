@@ -1,68 +1,36 @@
 # Framework7 Vue + Webpack App Template
 
-A full-featured Framework7 Vue with Webpack setup with hot-reload & css extraction. Based on [Vue Webpack Boilerplate](https://github.com/vuejs-templates/webpack)
+使用frameworkVue和webpack的模板
 
-## Usage
+## 使用
 
-### 1. Download this repository
+### 1. 拉取依赖包
 ```
-git clone https://github.com/framework7io/framework7-template-vue-webpack my-app
-```
-
-Repository will be downloaded into `my-app/` folder
-
-### 2. Instal dependencies
-
-Go to the downloaded repository folder and run:
-```
-npm install
+npm install/cnpm install
 ```
 
-This will download latest version of Framework7, Framework7-Vue, Vue and required icon fonts (to `/src/fonts/`)
 
-### 3. Run the app
+### 2. 本地运行
+
+npm/cnpm run dev
+```
+监听localhost:3000端口
+```
+
+
+### 3. 建立生产
 
 ```
-npm run dev
+npm/cnpm run build
 ```
-
-App will be opened in browser at `http://localhost:8080/`
-
-### 4. Build app for production
 
 ```
 npm run build
 ```
 
-The output will be at `www/` folder
-
-## Use with cordova
-
-Just put the contents of `www` folder in your cordova's project root `www` folder
-
-## One command install
-
-```
-git clone https://github.com/framework7io/framework7-template-vue-webpack my-app &&
-cd my-app &&
-npm install &&
-npm run dev
 ```
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-## Project Structure
+### 4.项目目录
 
 * `src/assets` - folder with static assets (images)
 * `src/components` - folder with custom `.vue` components
